@@ -47,21 +47,21 @@
 
   <button onclick="location.reload()">Refresh for a new prettiest girl</button>
 
-  <script>
-    const images = [
-      'image01',
-      'image02',
-      'image03.heic',
-      'image04.JPG',
-      'image05.jpg',
-      'image06.JPG'
-    ];
+<script>
+  const images = [
+    'image01.jpg',
+    'image02.jpg',
+    'image03.heic',
+    'image04.JPG',
+    'image05.jpg',
+    'image06.JPG'
+  ];
 
-    const randomImage = images[Math.floor(Math.random() * images.length)];
-    const img = document.createElement('img');
-    img.src = randomImage;
-    img.alt = 'The prettiest girl in the world';
-    document.getElementById('image-container').appendChild(img);
-  </script>
+  const randomImage = images[Math.floor(Math.random() * images.length)];
+  const img = document.createElement('img');
+  img.src = randomImage;
+  img.alt = 'The prettiest girl in the world';
+  document.getElementById('image-container').appendChild(img);
+</script>
 </body>
 </html>
